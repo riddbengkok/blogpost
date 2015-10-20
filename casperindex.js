@@ -108,7 +108,7 @@ casper.then(function(){
 });
 
 casper.wait(1000 , function() {
-	casper.sendKeys(x('//*[@id="Passwd"]') ,'alfat1618');
+	casper.sendKeys(x('//*[@id="Passwd"]') ,'');
 })
 
 casper.then(function(){
